@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="act3/style.css">
+</head>
+<body class="osnova">
+    <header>
+        <div class="shapka">
+            <div><img src="act3/york.jpg" alt="Герб города" id="act3/logoimg"></div>
+            <div><p>WEB PROJECT</p></div>
+        </div>
+    </header> 
+    <div class="navigation">
+    <nav>
+        <ul>
+            <li><a href="#start">Основное </a></li>
+            <li><a href="#form">Форма</a></li>
+            <li><a href="#table">Таблица</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="web3">
+    <h2><a id="start">Задание 3 </a></h2>
+    <ol>
+        <li><a href="http://example.com">1 ссылка</a></li><!--1 пункт-->
+        <li><a href="https://example.com">2 ссылка</a></li><!--2 пункт-->
+        <li><a href="ftp://ftp.rabota.ru/ucheniki/klass.txt"> 3 ссылка</a></li><!--3 пункт-->
+        <li><a href="ftp://test:password@ftp.rabota.ru/ucheniki/klass.txt">4 ссылка </a></li><!--4 пункт-->
+        <li><a href="#end">История города</a></li><!--5 пункт-->
+        <li><a href="text.html#bottom">6 пункт</a></li> <!--6 пункт--> 
+        <li><a href="https://www.exmpale/test/?id=681a4d&webmap=9cf0010">7 пункт</a></li><!--7 пункт-->
+        <li> Навигация
+            <nav>
+                <ul>
+                    <li><a href="#start">Основное</a></li>
+                    <li><a href="#form">Форма</a></li>
+                </ul>
+            </nav>
+        </li>
+        <li><p><a>9 ссылка</a></p></li><!--9 пункт-->
+        <li><a href="">10 ссылка</a></li><!--10 пункт-->
+        <li><a href="https://example.com/" rel="nofollow">11 ссылка</a></li><!--11 пункт-->
+        <li><a href="https://example.com/" rel="noindex">12 ссылка</a></li><!--12 пункт-->
+        <li>  <a href="https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA" >Нью-Йорк</a> — самый большой город США, крупнейший финансовый, политический, культурный, научный и образовательный центр Соединенных Штатов Америки (и мира в целом).
+<p><a id="end"><!--13 пункт-->
+Основанный голландцами в 1624 году, город получил свое нынешнее имя в 1664 году в честь герцога Йоркского (будущего короля Англии Якова II). Чтобы отличать город Нью-Йорк от одноименного штата, его часто называют Нью-Йорк-сити.
+        <p><a id="end"></a></p>  
+        </li>  
+        <li><img src="act2/min.jpg" alt="New York" width="100px" height="100px"></li><!--14 пункт-->
+        <li>
+            <img src="act2/min.jpg" usemap="#nado" alt="New York" width="100px" height="100px">
+            <map name="nado"><!--15-->
+                <area shape="circle" coords="0,0,10" href="https://www.google.com" alt="Круг">
+                <area shape="rect"  coords="100,100,110,110" href="https://yandex.ru" alt="ОПрямоугольник">
+            </map>
+        </li>
+        <li><a href="index2.html">16 ссылка</a></li> <!--16 пункт-->
+        <li><a href="about/index2.html"> 17 ссылка</a></li> <!--17 пункт-->
+        <li><a href="../index2.html">18 ссылка </a></li><!--18 пункт-->
+        <li><a href="../../index2.html">19 ссылка</a></li><!--19 пункт-->
+        <li><a href="/">20 ссылка </a></li>   
+        <li><a href="/about">21 ссылка</a></li> 
+    </ol>
+    </div>
+    <div id="tandf">
+    <div class="table">
+        <h2 id="table">Таблица</h2>
+        <table>
+            <tr>
+                <th>Номер 1</th>
+                <th>Номер 2</th>
+                <th>Номер 3</th>
+            </tr>
+            <tr >
+                <td>Первое место</td>
+                <td colspan="2">Вторе место</td>
+            </tr>
+            <tr class="nech">
+                <td>Третье место</td>
+                <td>Четвертое место </td>
+                <td>Пятое место </td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+    <h2>Форма </h2>
+    <form action="/" id="form">
+        <label>Имя <br>
+            <input  value="Денис">
+        </label> <br>
+        <label>
+            E-mail <br>
+            <input type="email" value="example@mail.ru">
+        </label> <br>
+        <label>
+            Дата рождения <br>
+            <input type="date" value="2002-14-05">
+        </label> <br>
+        <label>
+            Ваш пол <br>
+            <input type="radio" name="chek" checked="checked">Мужской <br>
+        </label>
+        <label>
+            <input type="radio" name="chek">Женский <br>
+        </label><br>
+        <label>
+            Количество конечностей <br>
+            <input type="radio" checked="checked" name="brr">1
+        </label>
+        <label>
+            <input type="radio" name="brr">2
+        </label>
+        <label>
+            <input type="radio" name="brr"> Более 2
+        </label> <br>
+        <label>
+            Сверхспособности <br>
+            <select multiple="multiple">
+                <option value="Знач1">Бессмертие</option>
+                <option value="Знач2" selected="selected">Прохождение сквозь стены</option>
+                <option value="Знач3" selected="selected">Левитация </option>
+            </select>
+        </label> <br>
+        <label>
+            Биография <br>
+            <textarea name="bio">Напишите о себе </textarea>
+        </label><br>
+        <label>
+            С контрактом ознакомлен(а) 
+            <input type="checkbox" name="udo">
+        </label><br>
+        <input type="submit" value="Отправить">
+    </form> 
+    </div> </div>
+    <footer>
+        Copyright Денис Пандас
+      </footer>
+</body>
+</html>
