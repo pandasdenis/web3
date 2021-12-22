@@ -15,8 +15,8 @@
         font-size: 50px;
     }
     .shapka img {
-        width: 30vw;
-        height: 30vw;
+        width: 30px;
+        height: 30px;
     }
     footer {
         width: 960px;
@@ -111,11 +111,6 @@ body {
 }
 .table {
     padding: 0px 5px 5px;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #7D7F7D;
-    border: thick double rgb(255, 255, 255);
 
 }
 .form {
@@ -123,6 +118,7 @@ body {
     margin-top: 30px;
     padding: 0px 5px 5px;
 }
+
 footer {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -146,6 +142,6 @@ header, .navigation, .web1, .table, .form, footer{
     background-color: #7D7F7D;
     border-width: thick;
     border-style: double;
-    border-color: grey;
+    border-color: #BAAF96;
     border-image: initial;
 }
