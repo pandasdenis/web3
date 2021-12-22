@@ -111,6 +111,12 @@ body {
 }
 .table {
     padding: 0px 5px 5px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7D7F7D;
+    border: thick double rgb(255, 255, 255);
+
 }
 .form {
     margin-bottom: 30px;
